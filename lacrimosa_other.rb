@@ -59,6 +59,8 @@ define :countdown do |home_dir|
   sample samps_en_countdown, 10, amp: 4.5, pan: 1
   sleep 2
   
+  sample home_dir + "samps/fireworks.wav", amp: 10
+
 end
 
 
@@ -109,3 +111,4 @@ define :rhythm do |volume|
   end
   
 end
+
